@@ -1,0 +1,15 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+    float fahretheit,centigreat_degree;
+    printf("enter value of fahretheit:\n");
+    scanf ("%f",&fahretheit);
+    
+    centigreat_degree=(fahretheit-32)/1.8;
+    printf("centigreat_degree:%f",centigreat_degree);
+
+    return 0;
+}
